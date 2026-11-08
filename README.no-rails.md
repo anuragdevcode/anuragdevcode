@@ -55,7 +55,7 @@ life_motto: "If it works, don't touch it. If it doesn't, add logs."
 
 <img src="assets/terminal.svg" width="100%" alt="A terminal typing out whoami, ls, git blame, a live weather check for Dehradun, and a failed sudo command." />
 
-<sub>It looks interactive. It's an SVG. GitHub READMEs can't run JavaScript, so there's no fake input box pretending to be a shell. We have standards. Barely. The weather line is real: it re-renders every few hours from Dehradun's actual sky.</sub>
+<sub>It looks interactive. It's an SVG. GitHub READMEs can't run JavaScript, so there's no fake input box pretending to be a shell. We have standards. Barely. The weather line is real: it re-renders daily outside monsoon and every six hours during monsoon, following Dehradun's sky.</sub>
 
 <img src="assets/band-2.svg" width="100%" alt="" />
 
@@ -158,6 +158,6 @@ $ sudo hire anurag
 
 <div align="center">
 
-<sub>The falling things follow Dehradun's weather (data by <a href="https://open-meteo.com/">Open-Meteo</a>) and refresh every few hours via GitHub Actions.<br/>Designed with curiosity, caffeine, and an unreasonable number of open browser tabs.</sub>
+<sub>The falling things follow Dehradun's weather (data by <a href="https://open-meteo.com/">Open-Meteo</a>) and refresh daily outside monsoon and every six hours during monsoon via GitHub Actions.<br/>Designed with curiosity, caffeine, and an unreasonable number of open browser tabs.</sub>
 
 </div>

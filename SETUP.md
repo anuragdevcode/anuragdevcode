@@ -17,7 +17,8 @@ Settings → Actions → General → Workflow permissions → **Read and write p
 ## 3. Push
 
 Pushing `scripts/generate_profile.py` triggers the first run. You can also start it manually:
-Actions → **Refresh profile animations** → Run workflow. After that it runs every 3 hours and
+Actions → **Refresh profile animations** → Run workflow. Scheduled runs happen daily outside
+monsoon and every 6 hours in July–September (UTC; GitHub may delay scheduled runs). The workflow
 commits only when something visible changed (season, weather type, day/night, a 3°C temperature
 shift, or new contributions).
 
