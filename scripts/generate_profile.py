@@ -465,10 +465,10 @@ def terminal_scenes(scene):
     else:
         wx = "no live reading in this build. blaming the network."
     return [
-        ("whoami", "anurag: software engineer, work in progress"),
+        ("whoami", "Anurag: software engineer, work in progress"),
         ("ls ~/projects", "DeployForge/  ScaleFlow/  NeuroNav/  LogicLab/  Tangent/"),
         ("git blame life.py", "it was me. it's always me."),
-        ("curl wttr.in/dehradun", wx),
+        ("curl wttr.in/Dehradun", wx),
         ("sudo make me productive", "permission denied: coffee required."),
     ]
 
