@@ -1,8 +1,8 @@
 {
   "season": "autumn",
   "kind": "leaf",
-  "cond": "season mode",
-  "temp": null,
+  "cond": "clear night",
+  "temp": 16,
   "is_day": false,
-  "live": false
+  "live": true
 }
